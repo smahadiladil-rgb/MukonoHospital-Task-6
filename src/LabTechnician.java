@@ -1,4 +1,5 @@
 public class LabTechnician extends MedicalStaff{
+    // type of laboratory test the technician performs
     private String labType;
 
     public LabTechnician(String id, String name, String dept, int hours, String labType){
