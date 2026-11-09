@@ -1,8 +1,8 @@
 public class Doctor extends MedicalStaff{
     private String specialization;
 
-    public Doctor(String id, String name, String dept, int hours, String specialization){
-        super(id, name, dept, hours);
+    public Doctor(String id, String name, String department, int hours, String specialization){
+        super(id, name, department, hours);
         this.specialization = specialization;
     }
 
