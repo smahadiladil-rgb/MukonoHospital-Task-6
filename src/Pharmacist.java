@@ -1,8 +1,8 @@
 public class Pharmacist extends MedicalStaff{
     private String licenseNumber;
 
-    public Pharmacist(String id, String name, String dept, int hours, String licenseNumber){
-        super(id, name, dept, hours);
+    public Pharmacist(String id, String name, String dept, int workingHours, String licenseNumber){
+        super(id, name, dept, workingHours);
         this.licenseNumber = licenseNumber;
     }
 
