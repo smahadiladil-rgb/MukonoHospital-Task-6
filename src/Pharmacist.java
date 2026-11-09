@@ -9,6 +9,6 @@ public class Pharmacist extends MedicalStaff{
     @Override
     public void performDuties(){
         System.out.println("Pharmacist " + getName() + " (License: " + licenseNumber
-                + ") dispenses medicine and advises patients on drug use.");
+                + ") dispenses prescribed medicine and advises patients safe on drug use.");
     }
 }
