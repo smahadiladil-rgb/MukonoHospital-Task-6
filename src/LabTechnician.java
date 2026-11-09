@@ -9,7 +9,7 @@ public class LabTechnician extends MedicalStaff{
 
     @Override
     public void performDuties(){
-        System.out.println("Lab Technician " + getName() + " carries out " + labType
+        System.out.println("Lab Technician " + getName() + " performs " + labType
                 + " tests and reports results to doctors.");
     }
 }
