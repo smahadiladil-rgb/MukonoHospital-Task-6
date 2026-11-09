@@ -1,4 +1,5 @@
 public class Nurse extends MedicalStaff{
+    // Ward where the nurse is assigned 
     private String ward;
 
     public Nurse(String id, String name, String dept, int hours, String ward){
