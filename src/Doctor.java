@@ -9,6 +9,6 @@ public class Doctor extends MedicalStaff{
     @Override
     public void performDuties(){
         System.out.println("Dr. " + getName() + " (" + specialization
-                + ") diagnoses patients and prescribes treatment.");
+                + ") examines patients, diagnoses illnesses and prescribes treatment.");
     }
 }
