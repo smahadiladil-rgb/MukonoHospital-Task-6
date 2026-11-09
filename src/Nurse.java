@@ -1,5 +1,5 @@
 public class Nurse extends MedicalStaff{
-    // Ward where the nurse is assigned 
+    // Ward where the nurse is assigned
     private String ward;
 
     public Nurse(String id, String name, String dept, int hours, String ward){
@@ -10,6 +10,6 @@ public class Nurse extends MedicalStaff{
     @Override
     public void performDuties(){
         System.out.println("Nurse " + getName()
-                + " monitors patients, gives medication and assists doctors in " + ward + ".");
+                + " monitors patients, administers medication and assists doctors in " + ward + ".");
     }
 }
