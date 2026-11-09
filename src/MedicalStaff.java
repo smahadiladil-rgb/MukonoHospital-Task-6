@@ -11,6 +11,7 @@ public abstract class MedicalStaff {
         this.workingHours = workingHours;
     }
 
+    // Displays the common details shared by all medical staff
     public void displayInfo() {
         System.out.println("Employee ID : " + employeeId);
         System.out.println("Name : " + name);
