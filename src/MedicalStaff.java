@@ -14,7 +14,7 @@ public abstract class MedicalStaff {
     // Displays the common details shared by all medical staff
     public void displayInfo() {
         System.out.println("Employee ID : " + employeeId);
-        System.out.println("Name : " + name);
+        System.out.println("Staff Name : " + name);
         System.out.println("Department : " + department);
         System.out.println("Working Hours : " + workingHours + "hrs/day");
         System.out.println("Role : " + getClass().getSimpleName());
